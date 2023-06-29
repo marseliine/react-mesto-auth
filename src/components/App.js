@@ -89,7 +89,8 @@ function App() {
       })
       .catch((error) => {
         console.log(error);
-        setIsInfoToolTipOpen(false);
+        setRegistrated(false);
+        setIsInfoToolTipOpen(true);
       })
   }
 
